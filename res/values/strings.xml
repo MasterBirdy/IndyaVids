@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, IndyavidsTestActivity!</string>
+    <string name="app_name">Indyavids Mobile</string>
+    <string name="testText">bottom buttons go here</string>
+    <string name="homeText">Home</string>
+    <string name="videosText">Videos</string>
+    <string name="uploadText">Upload</string>
+    <string name="textTitle">IndyaVids Mobile</string>
+    <string name="powerText">Powered by:</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <TextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textTitle" android:text="@string/textTitle" android:layout_height="wrap_content" android:layout_marginTop="55dip"></TextView>
+    <TextView android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:id="@+id/poweredByText" android:layout_gravity="center" android:text="@string/powerText"></TextView>
+    <ImageView android:src="@drawable/cd" android:id="@+id/imageView1" android:layout_height="88dp" android:layout_gravity="center" android:layout_weight="0.18" android:layout_width="159dp"></ImageView>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/progressBar1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="35dip"></ProgressBar>
+    
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1" android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/topBar" android:orientation="horizontal" android:weightSum="1" android:layout_height="0dp" android:baselineAligned="true" android:layout_gravity="center_horizontal" android:layout_weight="0.48">
+        <ImageView android:layout_width="wrap_content" android:src="@drawable/logo" android:id="@+id/logoImage" android:layout_marginLeft="5dip" android:layout_marginRight="5dip" android:layout_height="match_parent" android:layout_weight="0.16"></ImageView>
+        <ImageView android:src="@drawable/home" android:layout_width="wrap_content" android:layout_weight="0.19" android:layout_height="match_parent" android:layout_marginLeft="5dip" android:layout_marginRight="5dip" android:id="@+id/homeButton"></ImageView>
+        <ImageView android:src="@drawable/video" android:layout_width="wrap_content" android:layout_weight="0.19" android:layout_height="match_parent" android:layout_marginLeft="5dip" android:layout_marginRight="5dip" android:id="@+id/videoButton"></ImageView>
+        <ImageView android:src="@drawable/upload" android:layout_width="wrap_content" android:layout_weight="0.19" android:layout_height="match_parent" android:layout_marginLeft="5dip" android:layout_marginRight="5dip" android:id="@+id/uploadButton"></ImageView>
+    </LinearLayout>
+    <WebView android:id="@+id/webview" android:layout_width="match_parent" android:layout_height="411dp" android:layout_weight="0.50"></WebView>
+</LinearLayout>
