@@ -1,6 +1,7 @@
 package main.app;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
@@ -16,6 +17,7 @@ public class IndyavidsTestActivity extends Activity {
     private ImageView homeButton; 
     private ImageView videoButton;
     private ImageView uploadButton;
+    private ImageView randomButton;
     
 
     
@@ -51,9 +53,8 @@ public class IndyavidsTestActivity extends Activity {
         videoButton = (ImageView) findViewById(R.id.videoButton);
         videoButton.setOnClickListener( new View.OnClickListener() {
         	public void onClick( View v ) {
+        		//webContent.loadUrl("http://indyavids.com/addons/m/mobile_randomVideo.php");
         		webContent.loadUrl("http://indyavids.com/addons/m/videos.php");
-        		
-        		
         	}
         });
         
@@ -64,7 +65,18 @@ public class IndyavidsTestActivity extends Activity {
         		
         	}
         });
-             
+        
+        randomButton = (ImageView) findViewById(R.id.randomButton);
+        randomButton.setOnClickListener(new View.OnClickListener(){
+        	public void onClick( View v) {
+        		webContent.loadUrl("http://indyavids.com/addons/m/mobile_randomVideo.php");
+        		Intent i = new Intent();
+	               i.setClassName("main.app",
+	                              "main.app.ShakeItUp");
+	               startActivity(i);
+        	}
+        });
+        
     }
     
     // handles functionality for device hardware buttons

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1" android:orientation="vertical">
+    <WebView android:id="@+id/webview" android:layout_width="match_parent" android:layout_height="411dp" android:layout_weight="0.50"></WebView>
+</LinearLayout>
