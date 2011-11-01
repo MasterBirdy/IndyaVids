@@ -8,6 +8,6 @@
         <ImageView android:src="@drawable/home" android:layout_width="wrap_content" android:layout_weight="0.19" android:layout_height="match_parent" android:layout_marginLeft="5dip" android:layout_marginRight="5dip" android:id="@+id/homeButton"></ImageView>
         <ImageView android:src="@drawable/video" android:layout_width="wrap_content" android:layout_weight="0.19" android:layout_height="match_parent" android:layout_marginLeft="5dip" android:layout_marginRight="5dip" android:id="@+id/videoButton"></ImageView>
         <ImageView android:src="@drawable/upload" android:layout_width="wrap_content" android:layout_weight="0.19" android:layout_height="match_parent" android:layout_marginLeft="5dip" android:layout_marginRight="5dip" android:id="@+id/uploadButton"></ImageView>
-        <ImageView android:src="@drawable/video" android:layout_width="wrap_content" android:layout_weight="0.19" android:layout_height="match_parent" android:layout_marginLeft="5dip" android:layout_marginRight="5dip" android:id="@+id/randomButton"></ImageView></LinearLayout>
+        <ImageView android:src="@drawable/random" android:layout_width="wrap_content" android:layout_marginLeft="5dip" android:layout_height="match_parent" android:layout_marginRight="5dip" android:id="@+id/randomButton" android:layout_weight="0.19"></ImageView></LinearLayout>
     <WebView android:id="@+id/webview" android:layout_width="match_parent" android:layout_height="411dp" android:layout_weight="0.50"></WebView>
 </LinearLayout>

@@ -17,17 +17,19 @@ public final class R {
         public static final int icon=0x7f020003;
         public static final int logo=0x7f020004;
         public static final int old=0x7f020005;
-        public static final int upload=0x7f020006;
-        public static final int video=0x7f020007;
+        public static final int random=0x7f020006;
+        public static final int upload=0x7f020007;
+        public static final int video=0x7f020008;
     }
     public static final class id {
         public static final int homeButton=0x7f050002;
-        public static final int imageView1=0x7f050009;
+        public static final int imageView1=0x7f05000a;
         public static final int logoImage=0x7f050001;
-        public static final int poweredByText=0x7f050008;
-        public static final int progressBar1=0x7f05000a;
+        public static final int poweredByText=0x7f050009;
+        public static final int progressBar1=0x7f05000b;
         public static final int randomButton=0x7f050005;
-        public static final int textTitle=0x7f050007;
+        public static final int testText=0x7f050007;
+        public static final int textTitle=0x7f050008;
         public static final int topBar=0x7f050000;
         public static final int uploadButton=0x7f050004;
         public static final int videoButton=0x7f050003;

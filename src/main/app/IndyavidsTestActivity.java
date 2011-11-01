@@ -8,6 +8,7 @@ import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 
 public class IndyavidsTestActivity extends Activity {
@@ -69,11 +70,10 @@ public class IndyavidsTestActivity extends Activity {
         randomButton = (ImageView) findViewById(R.id.randomButton);
         randomButton.setOnClickListener(new View.OnClickListener(){
         	public void onClick( View v) {
-        		webContent.loadUrl("http://indyavids.com/addons/m/mobile_randomVideo.php");
         		Intent i = new Intent();
-	               i.setClassName("main.app",
-	                              "main.app.ShakeItUp");
-	               startActivity(i);
+        		i.setClassName("main.app",
+        		"main.app.ShakeItUp");
+        		startActivity(i);
         	}
         });
         
