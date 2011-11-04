@@ -3,6 +3,5 @@
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
-	<classpathentry kind="lib" path="C:/Users/MasterBirdy/Downloads/sensorsimulator-2.0-rc1/sensorsimulator-2.0-rc1/lib/sensorsimulator-lib-2.0-rc1.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
