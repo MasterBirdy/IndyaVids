@@ -19,6 +19,7 @@ public class IndyavidsTestActivity extends Activity {
     private ImageView videoButton;
     private ImageView uploadButton;
     private ImageView randomButton;
+    private ImageView weirdButton;
     
 
     
@@ -35,7 +36,7 @@ public class IndyavidsTestActivity extends Activity {
         WebSettings webSettings = webContent.getSettings();
         webSettings.setSupportZoom(false);
         webSettings.setJavaScriptEnabled(true);
-       webContent.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
+        webContent.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
         webContent.setWebViewClient(new CustomWebViewClient());
         
         webContent.loadUrl("http://indyavids.com/addons/m/");
@@ -76,6 +77,16 @@ public class IndyavidsTestActivity extends Activity {
         		startActivity(i);
         	}
         });
+        
+        weirdButton = (ImageView) findViewById(R.id.weirdButton);
+        weirdButton.setOnClickListener(new View.OnClickListener(){
+        	public void onClick( View v) {
+        		Intent i = new Intent();
+        		i.setClassName("main.app", "main.app.OverlayVideoScreen");
+        		startActivity(i);
+        	}
+        });
+        
         
     }
     

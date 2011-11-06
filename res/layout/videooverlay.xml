@@ -3,13 +3,13 @@
         android:id="@+id/relativeLayout1"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" >
-
+        <ImageView android:src="@drawable/weirdthing" android:layout_width="48dp" android:layout_marginLeft="5dip" android:layout_height="48dp" android:layout_marginRight="5dip" android:id="@+id/weirdThing2" android:layout_weight="0.19"></ImageView>
         <VideoView
             android:id="@+id/videoView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="480dp"
+            android:layout_height="300dp"
             android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true" />
+            android:layout_centerVertical="true"></VideoView>
 
         <ScrollView
             android:id="@+id/scrollView1"
@@ -17,16 +17,17 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
-            android:visibility="visible" >
+            android:visibility="gone"  >
 
             <ImageView
-                android:id="@+id/overlayButton"
+                android:id="@+id/overlayButton2"
                 android:layout_width="130dp"
                 android:layout_height="310dp"
                 android:layout_marginLeft="0dip"
                 android:layout_marginRight="0dip"
                 android:layout_weight="0.01"
-                android:src="@drawable/cd" />
+                android:src="@drawable/cd"
+                android:visibility="gone" ></ImageView>
         </ScrollView>
 
     </RelativeLayout>

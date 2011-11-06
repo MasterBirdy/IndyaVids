@@ -20,24 +20,27 @@ public final class R {
         public static final int random=0x7f020006;
         public static final int upload=0x7f020007;
         public static final int video=0x7f020008;
+        public static final int weirdthing=0x7f020009;
     }
     public static final class id {
         public static final int homeButton=0x7f050002;
-        public static final int imageView1=0x7f05000a;
+        public static final int imageView1=0x7f05000b;
         public static final int logoImage=0x7f050001;
-        public static final int overlayButton=0x7f05000f;
-        public static final int poweredByText=0x7f050009;
-        public static final int progressBar1=0x7f05000b;
+        public static final int overlayButton2=0x7f050011;
+        public static final int poweredByText=0x7f05000a;
+        public static final int progressBar1=0x7f05000c;
         public static final int randomButton=0x7f050005;
-        public static final int relativeLayout1=0x7f05000c;
-        public static final int scrollView1=0x7f05000e;
-        public static final int testText=0x7f050007;
-        public static final int textTitle=0x7f050008;
+        public static final int relativeLayout1=0x7f05000d;
+        public static final int scrollView1=0x7f050010;
+        public static final int testText=0x7f050008;
+        public static final int textTitle=0x7f050009;
         public static final int topBar=0x7f050000;
         public static final int uploadButton=0x7f050004;
         public static final int videoButton=0x7f050003;
-        public static final int videoView1=0x7f05000d;
-        public static final int webview=0x7f050006;
+        public static final int videoView1=0x7f05000f;
+        public static final int webview=0x7f050007;
+        public static final int weirdButton=0x7f050006;
+        public static final int weirdThing2=0x7f05000e;
     }
     public static final class layout {
         public static final int main=0x7f030000;
