@@ -3,13 +3,7 @@
         android:id="@+id/relativeLayout1"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" >
-        <ImageView android:src="@drawable/weirdthing" android:layout_width="48dp" android:layout_marginLeft="5dip" android:layout_height="48dp" android:layout_marginRight="5dip" android:id="@+id/weirdThing2" android:layout_weight="0.19"></ImageView>
-        <VideoView
-            android:id="@+id/videoView1"
-            android:layout_width="480dp"
-            android:layout_height="300dp"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"></VideoView>
+        
 
         <ScrollView
             android:id="@+id/scrollView1"
@@ -29,5 +23,7 @@
                 android:src="@drawable/cd"
                 android:visibility="gone" ></ImageView>
         </ScrollView>
+        <TextView android:text="EZ Captioning" android:layout_height="wrap_content" android:id="@+id/text1" android:textSize="48sp" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"></TextView>
+        <VideoView android:id="@+id/videoView1" android:layout_width="480dp" android:layout_height="300dp" android:layout_below="@+id/text1" android:layout_alignParentLeft="true" android:layout_marginTop="15dp"></VideoView>
 
     </RelativeLayout>
