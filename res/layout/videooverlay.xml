@@ -16,7 +16,7 @@
             <ImageView
                 android:id="@+id/overlayButton2"
                 android:layout_width="130dp"
-                android:layout_height="310dp"
+                android:layout_height="280dp"
                 android:layout_marginLeft="0dip"
                 android:layout_marginRight="0dip"
                 android:layout_weight="0.01"
@@ -24,6 +24,22 @@
                 android:visibility="gone" ></ImageView>
         </ScrollView>
         <TextView android:text="EZ Captioning" android:layout_height="wrap_content" android:id="@+id/text1" android:textSize="48sp" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"></TextView>
-        <VideoView android:id="@+id/videoView1" android:layout_width="480dp" android:layout_height="300dp" android:layout_below="@+id/text1" android:layout_alignParentLeft="true" android:layout_marginTop="15dp"></VideoView>
-
+        
+        <VideoView
+            android:id="@+id/videoView1"
+            android:layout_width="320dp"
+            android:layout_height="240dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/text1" />
+        <TextView android:text="00:00" android:layout_below="@id/videoView1" android:layout_height="wrap_content" android:id="@+id/text2" android:textSize="24sp" android:layout_width="wrap_content"  android:layout_marginLeft="10dip"  android:layout_marginTop="15dip"></TextView>
+        <Button
+        android:id="@+id/captionnow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videoView1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="5dip"
+        android:text="Caption now!" />
+            
     </RelativeLayout>
